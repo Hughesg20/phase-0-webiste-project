@@ -1,9 +1,24 @@
 <!DOCTYPE html>
+<script>
+    var cookieAmount = 0
+</script>
 <html lang="en">
   <head>
       <title>My cookie clicker attempt!</title>
        </head>
   <body>
-    <h1>COOKIES</h1>
+    <h1>COOKIES = 
+        <input type="text" id="cookietext" disabled style= text-align:center>
+        <script>
+            function add(){
+                cookieAmount = cookieAmount + 1
+                document.getElementById('cookietext').value = cookieAmount + " cookies";
+                
+
+            }
+        </script>
+    </h1>
+    <a href=# onclick="add()"><img src="https://www.how-to-draw-funny-cartoons.com/images/cartoon-cookie-6.gif" </a>
+    
   </body>
 </html>
